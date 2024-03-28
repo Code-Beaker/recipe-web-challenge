@@ -1,0 +1,140 @@
+@import "./fonts.css";
+@import "./variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 7.5rem 0;
+  background: var(--neutral-eggshell);
+}
+
+.container {
+  max-width: 75%;
+  border-radius: 2rem;
+  padding: 3rem;
+  background: var(--neutral-white);
+}
+
+.header__image {
+  border-radius: 1rem;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: normal;
+  color: var(--neutral-dark-charcoal);
+  font-family: "Young Serif";
+  margin: 2rem 0;
+}
+
+.para {
+  font-family: "Outfit-Regular";
+  font-size: var(--font-size);
+  color: var(--neutral-wenge-brown);
+  margin: 1rem 0;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  margin-left: 0.5rem;
+}
+
+li {
+  line-height: 2;
+  font-family: "Outfit-Regular";
+  color: var(--neutral-dark-charcoal);
+  font-size: var(--font-size);
+}
+
+.section {
+  padding: 1rem;
+}
+
+.section__heading {
+  font-weight: normal;
+  color: var(--primary-nutmeg);
+  font-family: "Young Serif";
+  font-size: 2rem;
+  margin: 1rem 0;
+  display: block;
+}
+
+.prepare-section {
+  background: var(--neutral-light-grey);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.prepare__heading {
+  font-size: 24px;
+  color: var(--primary-dark-raspberry);
+  font-family: "Outfit-Bold";
+  margin-bottom: 1rem;
+}
+
+.prepare-list {
+  margin-left: 1rem;
+}
+
+/* hr */
+hr {
+  opacity: 0.5;
+  width: 75%;
+  margin: 1.5rem 0;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  font-family: "Outfit-Regular";
+}
+
+.table-row {
+  margin: 5px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.amount {
+  font-family: "Outfit-Semibold";
+  color: var(--primary-nutmeg);
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    padding: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .header__image {
+    border-radius: 0;
+  }
+
+  .heading {
+    margin: 1rem 0;
+    font-size: 24px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Outfit-Regular";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-weight: 400;
+  font-variation-settings: "wght" 400;
+}
+@font-face {
+  font-family: "Outfit-Semibold";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-weight: 600;
+  font-variation-settings: "wght" 600;
+}
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-weight: 700;
+  font-variation-settings: "wght" 700;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
